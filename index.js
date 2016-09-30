@@ -29,8 +29,6 @@ console.log(window);
  }
  fire(true);
  //hola();
-
-*/
 // NAMESPACES
 // De moment no tneim class { }
 
@@ -38,37 +36,82 @@ console.log(window);
 //Backend: java,php,javascript,ruby,python,etc...
 
 // Javascript Object Notation aka JSON. Objectes
-// var myApp =[]; Objecte buit. Ararys en javascript començen per corxete.
+// var Person =[]; Objecte buit. Ararys en javascript començen per corxete.
+/*
+ //Namespaces en javascript
+ //Jquery $
+ //D'aquesta forma la podem usar amb un namespace
+ var Person = {} //Definim variable com un objecte buit
 
+ Person.name='Manel'; //Començem a penjar-li coses.
+
+ //Millor que definir funcions globals.
+ //Mètode.
+
+ Person.hello= function (){ //Funció anònima.
+ console.log('Hola mon!');
+ };
+
+ Person.hello();
+
+
+ //Caca
+ function hello =function (){
+ console.log('Hola mon');
+ }
+ class Person {
+ 'name' : 'Manel',
+ 'sn1' : 'Gavaldà',
+ 'age' : 20
+ };
+ */
 var Persona= {
     'name' : 'Manel',
     'sn1' : 'Gavaldà',
     'age' : 20
 }
 
-//Namespaces en javascript
-//Jquery $
-//D'aquesta forma la podem usar amb un namespace
-var myApp = {} //Definim variable com un objecte buit
+//Formes de treballar en programació orientada a objectes.
 
-myApp.name='Manel'; //Començem a penjar-li coses.
+//OOP: Object Oriented Programming
 
-//Millor que definir funcions globals.
-myApp.hello= function (){ //Funció anònima.
-    console.log('Hola mon!');
-};
+//JSON: Javascript Object Notation
 
-myApp.hello();
+//Framework json vue.js
+
+//Object Literal Notation
+// Json
 /*
-//Caca
-function hello =function (){
-    console.log('Hola mon');
+var Person ={
+
 }
-*/
-/*
-class Person {
-    'name' : 'Manel',
-    'sn1' : 'Gavaldà',
-    'age' : 20
-};
+
+Person.name= "Manel"
+
+Person.hello= function(){
+
+}
     */
+//Object Literal Notation: vue.js
+var person ={
+    //Propietats davant i desprès mètodes per ordenar.
+    name : 'Manel',
+    sn1 : 'Gavaldà',
+    sn2 : 'Andreu',
+
+    constructor: function(){
+
+    },
+
+    hello : function(){
+        console.log('Hello' + this.name);
+    },
+
+    bye : function(){
+        return('bye bye' + this.name);
+    }
+}
+
+console.log(person.name);
+person.hello();
+console.log(person.bye());
