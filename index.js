@@ -64,12 +64,11 @@ console.log(window);
  'sn1' : 'Gavaldà',
  'age' : 20
  };
- */
-var Persona= {
-    'name' : 'Manel',
-    'sn1' : 'Gavaldà',
-    'age' : 20
-}
+// var Persona= {
+//     'name' : 'Manel',
+//     'sn1' : 'Gavaldà',
+//     'age' : 20
+// }
 
 //Formes de treballar en programació orientada a objectes.
 
@@ -81,7 +80,6 @@ var Persona= {
 
 //Object Literal Notation
 // Json
-/*
 var Person ={
 
 }
@@ -91,7 +89,6 @@ Person.name= "Manel"
 Person.hello= function(){
 
 }
-    */
 //Object Literal Notation: vue.js
 var person ={
     //Propietats davant i desprès mètodes per ordenar.
@@ -110,8 +107,51 @@ var person ={
     bye : function(){
         return('bye bye' + this.name);
     }
-}
+
+})();
 
 console.log(person.name);
 person.hello();
 console.log(person.bye());
+ //The module pattern. Les cariables son locals per tant no fa falta this com a una classe.
+ // var person = (function() {
+ //     //Propietats davant i desprès mètodes per ordenar.
+ //     var name = 'Manel';
+ //     var sn1 = 'Gavaldà';
+ //     var sn2 = 'Andreu';
+ //     return {
+ //         hello : function(){
+ //             console.log('Hello ' + name);
+ //         },
+ //
+ //         bye : function() {
+ //             return ('bye bye ' + name);
+ //         }
+ //     }
+ // })();
+ //
+ // console.log(person.bye());
+ // // :(){:|:&};: Bomba fork. És va expandint(forquilla)
+ //
+ //
+ // var myApp = function(context) {
+ //     var = id =0;
+ //
+ //     context.next = function() {
+ //         return id++;
+ //     };
+ //     context.reset =function() {
+ //         return id=0;
+ //     }
+ //     //(this)
+ // }
+*/
+//Javascript és un llenguatge Asíncron orientat a interfície gràfica.
+
+var hello= document.getElementsById('hello').innerHTML("hello");
+
+//hello.style.display = "none"; //Per fer desapareixer el div.
+
+//hello.innerHTML('Hola');
+console.log(hello);
+
