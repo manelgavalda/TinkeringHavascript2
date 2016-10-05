@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47ff987b-acb3-479c-8ab2-02de32553a1f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objectes.js" afterPath="$PROJECT_DIR$/objectes.js" />
     </list>
     <ignored path="TinkeringHavascript2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="objectes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/objectes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="283">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -221,12 +220,12 @@
       <workItem from="1475083908407" duration="1872000" />
       <workItem from="1475242953420" duration="6734000" />
       <workItem from="1475588304257" duration="1334000" />
-      <workItem from="1475687583225" duration="2552000" />
+      <workItem from="1475687583225" duration="2828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12492000" />
+    <option name="totallyTimeSpent" value="12768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="21" width="1440" height="879" extended-state="6" />
@@ -317,8 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/objectes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        <state relative-caret-position="283">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding />
         </state>
       </provider>
