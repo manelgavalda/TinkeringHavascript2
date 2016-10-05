@@ -148,10 +148,14 @@ console.log(person.bye());
 */
 //Javascript és un llenguatge Asíncron orientat a interfície gràfica.
 
-var hello= document.getElementsById('hello').innerHTML("hello");
+//Document HTML sobre el que treballem. El window és tota la finestra (navegador, més global).
+//console.log("hola");
+var hello= document.getElementById('prova')  // .innerHTML("hello");
 
+hello.innerHTML = "Hola mon!"
 //hello.style.display = "none"; //Per fer desapareixer el div.
 
+//Node: global. Executar fitxers javascript node i fitxer.
 //hello.innerHTML('Hola');
 console.log(hello);
 
