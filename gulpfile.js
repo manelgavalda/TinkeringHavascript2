@@ -17,7 +17,7 @@ elixir(mix => {
     mix.sass('app.scss')
        .webpack('app.js')
     .browserSync({
-        proxy: 'http://localhost:63342/TinkeringJavascript2/public'
+        proxy: 'http://127.0.0.1:8080'
     });
 });
 
