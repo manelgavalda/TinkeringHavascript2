@@ -1,0 +1,5 @@
+El this no és igual en javascript que en PHP. No sempre és el mateix en js, depen del content.
+This sempre fa referència a un objecte.
+
+This ens fa referència a l'objecte window. I quant fem el console log ens el diu.
+Objecte que utilitza aquella funció. Depèn on l'executes.
