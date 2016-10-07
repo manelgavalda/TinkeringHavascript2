@@ -23,8 +23,8 @@ function Persona()
     //El new no està fent un objecte. Mirar video fun fun function. Amb el new podem cridar l'objecte.
     console.log("Creant una nova persona");
     //this és molt especial. 2 videos.
-    var this.name = 'Manel';
-    var this.sn1 = 'Gavaldà';
+    var name = 'Manel';
+    var sn1 = 'Gavaldà';
 }
 
 var persona1 =Persona;
