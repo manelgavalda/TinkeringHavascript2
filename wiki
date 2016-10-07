@@ -3,3 +3,23 @@ This sempre fa referència a un objecte.
 
 This ens fa referència a l'objecte window. I quant fem el console log ens el diu.
 Objecte que utilitza aquella funció. Depèn on l'executes.
+
+Amb prototype podem ectendre una classe(afegir mètodes,etcc).
+<pre>
+var Persona1 = function(name){
+    this.name= name;
+    console.log('Creant objecte1');
+};
+
+//Canviar la funció original(herència,extensió(modificar classes)).
+Persona1.prototype.sayHello = function(){
+    console.log('Hello ' + this.name);
+};
+
+var personeta = new Persona1("Manel");
+
+console.log(personeta.sayHello());
+</pre>
+
+==Tasca==
+Composition over Inheritance. Intentar no usar la herència per tot.

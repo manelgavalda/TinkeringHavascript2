@@ -17,23 +17,34 @@
 //showFullName.call(persona,'Gavaldà');
 //showFullName.apply(persona,['Gavaldà']); //En aquest cas igual que dalt però pasant un array... args
 //Funció constructora
-function Persona() {
-    console.log('Creant objecte');
-};
-
+//function Persona() {
+//    console.log('Creant objecte');
+//};
 //console.log(Persona)
+// var Persona1 = function(name){
+//     this.name= name;
+//     console.log('Creant objecte1');
+// };
+//
+// //Canviar la funció original(herència,extensió(modificar classes)).
+// Persona1.prototype.sayHello = function(){
+//     console.log('Hello ' + this.name);
+// };
+//
+// var personeta = new Persona1("Manel");
+//
+// console.log(personeta.sayHello());
+calculateArea = function(){
+    console.log("Calculo Àrea");
+}
 
+//Classe Pare.
+var Figure = function(){
 
-var Persona1 = function(name){
-    this.name= name;
-    console.log('Creant objecte1');
-};
+}
 
-//Canviar la funció original(herència,extensió(modificar classes)).
-Persona1.prototype.sayHello = function(){
-    console.log('Hello ' + this.name);
-};
+Figure.prototype.area=calculateArea;
 
-var personeta = new Persona1("Manel");
+var figura = new Figure();
 
-console.log(personeta.sayHello());
+console.log(figura.area());
